@@ -35,7 +35,7 @@ ifeq ($(CONFIG_MTK_UNIFY_POWER), y)
 obj-$(CONFIG_MACH_MT6758) += upower_v2/
 endif
 obj-$(CONFIG_MACH_MT3967) += ppm_v3/
-obj-$(CONFIG_MACH_MT6761) += ppm_v3/
+# obj-$(CONFIG_MACH_MT6761) += ppm_v3/
 obj-$(CONFIG_MACH_MT6758) += ppm_v3/
 obj-$(CONFIG_MACH_MT6765) += ppm_v3/
 obj-$(CONFIG_MACH_MT6779) += ppm_v3/
