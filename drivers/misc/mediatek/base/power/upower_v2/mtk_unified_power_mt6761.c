@@ -38,6 +38,8 @@
 #include "mtk_common_static_power.h"
 //#endif
 
+#include "../include/leakage_table_v2/mtk_static_power_mt6761.h"
+
 #undef  BIT
 #define BIT(bit)	(1U << (bit))
 
