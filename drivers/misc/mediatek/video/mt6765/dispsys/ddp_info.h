@@ -18,7 +18,7 @@
 #include <disp_session.h>
 
 #include "ddp_hal.h"
-#include "lcm_drv.h"
+#include "../../../lcm/inc/lcm_drv.h"
 #include "ddp_ovl.h"
 #include "disp_event.h"
 
