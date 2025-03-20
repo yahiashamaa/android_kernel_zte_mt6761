@@ -30,7 +30,7 @@
 #include <mtk_pbm_common.h>
 #include <mtk_pbm_data.h>
 
-#ifndef DISABLE_PBM_FEATURE
+// #ifndef DISABLE_PBM_FEATURE
 #include <mach/upmu_sw.h>
 #include <mt-plat/upmu_common.h>
 #include <mt-plat/mtk_auxadc_intf.h>
@@ -38,7 +38,7 @@
 #include <mtk_gpufreq.h>
 #include <mach/mtk_thermal.h>
 #include <mtk_ppm_api.h>
-#endif
+// #endif
 
 #ifndef DISABLE_PBM_FEATURE
 static bool mt_pbm_debug;
