@@ -13,7 +13,7 @@
 
 #ifndef _DISP_LCM_H_
 #define _DISP_LCM_H_
-#include "../../../lcm/inc/lcm_drv.h"
+#include "lcm_drv.h"
 
 
 #define MAX_LCM_NUMBER	2

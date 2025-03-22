@@ -15,8 +15,8 @@
 
 #include <linux/types.h>
 #include "disp_drv_log.h"
-#include "../../../lcm/inc/lcm_drv.h"
-#include "../../../lcm/inc/lcm_define.h"
+#include "lcm_drv.h"
+#include "lcm_define.h"
 #include "disp_drv_platform.h"
 #include "ddp_manager.h"
 #include "disp_lcm.h"
