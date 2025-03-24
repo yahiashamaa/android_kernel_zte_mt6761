@@ -28,6 +28,11 @@ enum LCM_DSI_MODE_CON lcm_dsi_mode;
 #define LCD_HW_ID_STATUS_ERROR  0x03
 
 struct LCM_DRIVER *lcm_driver_list[] = {
+// The following driver is not the offical Nokia 2.3 LCM driver, this is a driver from another device that probably not work
+#if defined(FT8006P_HDP_DSI_VDO_BOE_DRIP_INCELL)
+	&ft8006p_hdp_dsi_vdo_boe_drip_incell_lcm_drv,
+#endif
+
 #if defined(ZTE_CAREZHXM_JD9366D_HDP_5P45_LIANCHUANG_PANDA)
 	&zte_carezhxm_jd9366d_hdp_5p45_lianchuang_panda_lcm_drv,
 #endif
